@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "AmplifyDemo1",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authAmplifyDemo1",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2021-12-19T12:58:52.864Z"
+}
